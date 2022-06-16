@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "../base/common";
+
+
+.nav{
+    &-item{
+        .nav-link{
+            color:$header-font-color;
+            font-size: $base*4;
+            font-weight: 500;
+        }
+        .nav-link:hover{
+            color:$secondary-color !important;
+        }
+    }
+}
+.col-for-5-items{
+    .card{
+        border: none;
+        .img-container{
+            border-radius: 4px !important;
+            background-repeat: no-repeat; 
+            background-size: cover;
+        }
+        .card-body{
+            text-align: center;
+            h5{
+                padding-right: 3px;
+                padding-left: 3px;
+                font-size: $base*4 + 2;
+            }
+            p{
+                padding-right: 3px;
+                padding-left: 3px;
+                font-size: $base*4 - 1;
+            }
+        }
+    }
+}

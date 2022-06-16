@@ -1,0 +1,18 @@
+$base:4px;
+$header-font-color:#eee;
+$primary-color:#2D3192;
+$secondary-color:#FF931E;
+$color-white:white;
+
+.font-color{
+    color: $primary-color;
+}
+.col-for-5-items{
+    width: calc(20% - 6px);
+}
+.mr-base{
+    margin-right: $base;
+}
+.h-350{
+    height: 350px;
+}

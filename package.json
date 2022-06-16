@@ -1,0 +1,24 @@
+{
+  "name": "feproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass --w assets/sass/index.scss assets/css/style.css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+   
+  "keywords": [],
+  "bugs": {
+   
+  },
+ 
+  "description": ""}
+}

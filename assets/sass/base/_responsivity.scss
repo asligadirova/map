@@ -1,0 +1,226 @@
+@media screen and (max-width: 768px){
+    .bottom-of-header{
+        height: 100vh;
+        background-position: 60% 50%;
+    }
+    .height-sm-for-card-image{
+        height: 180px !important;
+    }
+    .h-sm-270{
+        height: 270px;
+    }
+    .font-sm-size__header{
+        font-size: $base*5 !important;
+    }
+    .font-sm-size__body{
+        font-size: $base*3 !important;
+    }
+    .ccol-sm-6{
+        width: calc(50% - 9px);
+    }
+    .col-for-1-vacancies-items{
+        width: calc(100% - 6px) !important;
+    }
+}
+@media screen and (min-width: 768px){
+    .customized-img{
+        height: 230px !important;
+    }
+    .height-lg-special{
+        min-height: calc(100vh - 80px) !important;
+    }
+    .border-md-who-we-are{
+        border-bottom:1px solid #888888 ;
+    }
+    .bottom-of-header{
+        background-position: 0% 50%;
+        .container{
+            .row{
+                .col-12{
+                    .info{
+                        &__head{
+                            font-size: $base*8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .what-we-do{
+        .container{
+            .row{
+                .col-12{
+                    .header-what-we-do{
+                        h2{
+                            font-size: $base*8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .what-we-do-2{
+        background-image: url('https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        .text-container{
+            h1{
+                font-size: $base*13;
+                width: 70%;
+            }
+        }
+        .right-side{
+            background-color:rgba(45, 49, 146, 0.6);
+            .customized-list-group{
+                list-style-type: none !important;
+                width: 80% !important;
+                &__items{
+                    padding: $base*6 0;
+                    border-bottom:1px solid #504e78 ;
+                    font-weight: bold;
+                    font-size: $base*6;
+                }
+            }
+        }
+    }
+    .who-we-are{
+        .container{
+            .row{
+                .col-12{
+                    .who-we-are_head{
+                        color: $primary-color;
+                        h1{
+                            font-size: $base*9;
+                        }
+                    }
+                }
+                .col-md-12{
+                    .col-md-4{
+                        .statistics{
+                            font-size: $base*10;
+                            color: $secondary-color;
+                        }
+                        .statistics+p{
+                            font-size: $base*4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ccol-md-4{
+        width: calc(33.3% - 9px);
+    }
+    .end-of-page{
+        min-height: 100vh;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .col-for-2-vacancies-items{
+        width: calc(50% - 6px) !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .col-for-5-vacancies-items{
+        width: calc(20% - 6px) !important;
+    }
+}
+@media screen and (max-width: 1023px){
+    .end-of-page{
+        height: 100vh;
+    }
+    .contact-content{
+        ul{
+            list-style-type: none !important;
+            li:nth-child(2n+1){
+                color: rgba(255, 255, 255, 0.5);
+                font-size: $base*4-2;
+                font-weight: 500;
+            }
+            li:nth-child(2n){
+                color: white;
+                font-size: $base*4;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1023px){
+    .bottom-of-header{
+        .container{
+            .row{
+                .col-12{
+                    .info{
+                        &__head{
+                            font-size: $base*12;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .what-we-do{
+        .container{
+            .row{
+                .col-12{
+                    .header-what-we-do{
+                        h2{
+                            font-size: $base*10;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .world-map{
+        .container{
+            .row{
+                .header-of-map{
+                    width: 30% !important;
+                    h2{
+                        color: $primary-color;
+                        font-size: $base*8 !important;
+                    }
+                }
+            }
+        }
+    }
+    .contact-content{
+        ul{
+            list-style-type: none !important;
+            li:nth-child(2n+1){
+                color: rgba(255, 255, 255, 0.5);
+                font-size: $base*4+2;
+                font-weight: 500;
+            }
+            li:nth-child(2n){
+                color: white;
+                font-size: $base*5;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1168px){
+    .ccol-lg-3{
+        width: calc(25% - 9px);
+    }
+}
+@media screen and (max-width: 1168px){
+    .map-container{
+        svg{
+            height: 100% !important;
+            width: 100% !important;
+        }
+    }
+}
+@media screen and (min-width: 992px){
+    .margin-for-vacancies{
+        margin-left: -$base*12;
+    }
+
+}

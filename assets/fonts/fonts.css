@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'fooont';
+    src: url('fooontBookItalic.eot');
+    src: url('fooontBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('fooontBookItalic.woff2') format('woff2'),
+        url('fooontBookItalic.woff') format('woff'),
+        url('fooontBookItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fooont';
+    src: url('fooontBook.eot');
+    src: url('fooontBook.eot?#iefix') format('embedded-opentype'),
+        url('fooontBook.woff2') format('woff2'),
+        url('fooontBook.woff') format('woff'),
+        url('fooontBook.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fooont';
+    src: url('fooontMedium.eot');
+    src: url('fooontMedium.eot?#iefix') format('embedded-opentype'),
+        url('fooontMedium.woff2') format('woff2'),
+        url('fooontMedium.woff') format('woff'),
+        url('fooontMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fooont';
+    src: url('fooontBold.eot');
+    src: url('fooontBold.eot?#iefix') format('embedded-opentype'),
+        url('fooontBold.woff2') format('woff2'),
+        url('fooontBold.woff') format('woff'),
+        url('fooontBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,11 @@
+.countries-circle:hover,.countries-circle-orange:hover{
+    cursor:pointer;
+}
+.country-map-prm:hover{
+    fill: $primary-color !important;
+    cursor:pointer;
+}
+.country-map-scn:hover{
+    fill: $secondary-color !important;
+    cursor:pointer;
+}
